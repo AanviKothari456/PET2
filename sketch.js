@@ -108,6 +108,6 @@ dog.addImage(dogimg2)
 foodobject.updateFoodStock(foodobject.getFoodStock()-1)
  database.ref('/').update({
    Food:foodobject.getFoodStock(),
-   FeedTime:hour()
+ feedtime:hour()
  })
 }
